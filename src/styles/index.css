@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+@layer components {
+  /* ****************************
+    Common Buttons
+    **************************** */
+  .primary-btn {
+    @apply bg-[#4E31AA] border-[#4E31AA] text-[#FFFFFF] text-[14px] font-semibold rounded-[4px] hover:shadow-none;
+  }
+  .primary-btn-cancel {
+    @apply border-[#EF2F88] text-[#EF2F88] text-[14px] font-semibold rounded-[4px] hover:shadow-none bg-transparent;
+  }
+  .seconday-btn {
+    @apply border-[#727272] text-[#727272] text-[14px]  rounded-[4px] hover:shadow-none bg-transparent;
+  }
+  .ternary-btn {
+    @apply border-[#4E31AA] text-[#4E31AA] text-[14px]  rounded-[4px] hover:shadow-none bg-transparent;
+  }
+
+  /* ****************************
+    website fonts
+    **************************** */
+
+  @font-face {
+    font-family: "cairo-regular";
+    src: url(../assets/fonts/Cairo-Regular.ttf) format("truetype");
+  }
+}
+
+body {
+  background-color: black;
+  font-family: "Manrope", sans-serif;
+}
+
+p,
+h1,
+h2,
+h5 {
+  color: #60697b;
+}
+button {
+  padding: 0 !important;
+}
+.custom-carousel .carousel-control-prev-icon,
+.custom-carousel .carousel-control-next-icon {
+  background-color: black; /* Đặt màu nền cho dấu mũi tên */
+}
+
+.custom-carousel .carousel-control-prev,
+.custom-carousel .carousel-control-next {
+  filter: invert(1); /* Đảo ngược màu sắc để phù hợp với màu nền */
+}
+
+.custom-carousel .carousel-control-next {
+  right: -60px; /* Điều chỉnh khoảng cách bên phải */
+}
+.custom-carousel .carousel-control-prev {
+  left: -70px; /* Điều chỉnh khoảng cách bên trái */
+  top: 50%; /* Giữ nút ở giữa chiều dọc */
+  transform: translateY(-50%); /* Giúp căn giữa theo chiều dọc */
+}
+
+.img-youtime {
+  width: 60px !important;
+  height: 60px !important;
+  object-fit: cover;
+  border-radius: 100% !important;
+  margin-bottom: 20px;
+}
+
+.cut-background {
+  position: relative; /* Để tạo không gian cho :before */
+}
+.cut-background:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: #fff;
+  clip-path: polygon(0 100%, 100% 40%, 100% 100%);
+
+  z-index: 0;
+}
+.cut-background1 {
+  position: relative;
+  min-height: 5vh; /* Hoặc điều chỉnh theo ý muốn */
+  overflow: hidden;
+}
+.dropdown:hover {
+  color: rgb(0, 136, 255);
+}
+
+.bd_vu::before {
+  content: "";
+  background-color: orange;
+  border-top-width: 2px;
+  border-top-color: orange;
+  border-left-width: 2px;
+  border-left-color: orange;
+  padding: 2px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+a {
+  text-decoration: none !important;
+}
+.custom-dropdown {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.dropdown-menu-right .dropdown-item:active {
+  background-color: white !important;
+}
+.cut-background1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: #fff;
+  clip-path: polygon(100% 0, 0 0, 100% 90%);
+  z-index: 0;
+}
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 14.5rem;
+}
+.navbar-expand .navbar-nav {
+  flex-direction: row;
+}
+
+#dropdown-basic {
+  background-color: transparent;
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  border: none !important;
+}
+#dropdown-basic::after {
+  margin-left: 5px;
+  display: none;
+}
+
+#dropdown-basic:hover,
+#dropdown-basic:focus {
+  color: rgb(78, 78, 255);
+  border: none;
+}
+.cut-background2 {
+  position: relative; /* Để tạo không gian cho :before */
+}
+.cut-background2:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: #fff;
+  clip-path: polygon(0 100%, 100% 10%, 100% 100%);
+
+  z-index: 0;
+}
+.cut-background3 {
+  position: relative;
+}
+.cut-background3::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: #fff;
+  clip-path: polygon(100% 0, 0 0, 100% 90%);
+  z-index: 0;
+}
+
+.shadown {
+  box-shadow: 0 0 0 0.05rem rgba(8, 60, 130, 0.06),
+    0 0 1.25rem rgba(30, 34, 40, 0.04);
+  border: 0;
+  color: inherit;
+}
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+.row {
+  padding: 0;
+}
