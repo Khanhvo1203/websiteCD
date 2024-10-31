@@ -10,7 +10,7 @@ export default function Nigga() {
           <Row className="gap-3 d-flex items-center">
             <Col>
               <div className=" justify-content-center mx-6 mt-10">
-                <Image src="/public/co1.png" className="img-fluid" />
+                <Image src="/co1.png" className="img-fluid" />
               </div>
             </Col>
             <Col md={6} className="">

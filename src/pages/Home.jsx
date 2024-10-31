@@ -25,7 +25,7 @@ export default function Home() {
           </div>
         </Container>
         <div className="cut-background2">
-          <Image src="/public/bg12.jpg" />
+          <Image src="/bg12.jpg" />
         </div>
         <WhoAre />
         <TinTuc />

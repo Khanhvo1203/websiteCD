@@ -10,7 +10,7 @@ export default function Endhome() {
             <Col>
               <div className="d-flex items-start ">
                 <img
-                  src="/public/LogoTT.jpg"
+                  src="/LogoTT.jpg"
                   alt="Logo"
                   style={{
                     width: "104px",

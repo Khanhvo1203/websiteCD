@@ -14,12 +14,12 @@ export default function Convinced() {
             <div className="relative">
               <img
                 className="w-[440px] h-[250px] object-cover rounded-sm absolute left-24"
-                src="/public/anhnen.jpg"
+                src="/anhnen.jpg"
                 alt=""
               />
               <img
                 className="w-[496px] h-[400px] object-cover rounded-lg absolute right-0 top-24"
-                src="/public/dia chi trung tam.jpg"
+                src="/dia chi trung tam.jpg"
                 alt=""
               />
             </div>

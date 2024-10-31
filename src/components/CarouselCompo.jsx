@@ -5,31 +5,31 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export default function CarouselCompo() {
   const carouitem = [
     {
-      img: "/public/daden.jpg",
+      img: "/daden.jpg",
       title: "Coriss Ambady",
       name: "Chuyên gia tư vấn",
       des: "Fermentum massa justo sit amet risus morbi",
     },
     {
-      img: "/public/daden.jpg",
+      img: "/daden.jpg",
       title: "Coriss Ambady",
       name: "Chuyên gia tư vấn",
       des: "Fermentum massa justo sit amet risus morbi",
     },
     {
-      img: "/public/daden.jpg",
+      img: "/daden.jpg",
       title: "Coriss Ambady",
       name: "Chuyên gia tư vấn",
       des: "Fermentum massa justo sit amet risus morbi",
     },
     {
-      img: "/public/daden.jpg",
+      img: "/daden.jpg",
       title: "Coriss Ambady",
       name: "Chuyên gia tư vấn",
       des: "Fermentum massa justo sit amet risus morbi",
     },
     {
-      img: "/public/daden.jpg",
+      img: "/daden.jpg",
       title: "Coriss Ambady",
       name: "Chuyên gia tư vấn",
       des: "Fermentum massa justo sit amet risus morbi",

@@ -65,16 +65,12 @@ export default function WhoAre() {
         </Col>
         <Col className="relative">
           <Image
-            src="/public/bg11.jpg"
+            src="/bg11.jpg"
             width={333}
             className="absolute left-0  z-10 "
             style={{ bottom: "-4rem" }}
           />
-          <Image
-            src="/public/about2.jpg"
-            width={427}
-            className="absolute right-0 "
-          />
+          <Image src="/about2.jpg" width={427} className="absolute right-0 " />
         </Col>
       </Row>
     </Container>

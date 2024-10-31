@@ -35,7 +35,7 @@ export default function Header() {
             <div className="d-flex align-items-center   ">
               <Navbar.Brand>
                 <Image
-                  src="/public/LogoTT1.jpg"
+                  src="/LogoTT1.jpg"
                   style={{
                     width: "80px",
                     height: "auto",
@@ -78,119 +78,119 @@ export default function Header() {
                   <div className="rounded-m p-4 bg-slate-700 grid grid-cols-6  gap-2 w-[1290px]">
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
                     </div>
                     <div>
                       <img
-                        src="/public/slide.jpg"
+                        src="/slide.jpg"
                         className="rounded-md  w-[185px] object-cover"
                         alt=""
                       />
