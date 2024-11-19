@@ -10,7 +10,7 @@ export default function Nigga() {
           <Row className="gap-3 d-flex items-center">
             <Col>
               <div className=" justify-content-center mx-6 mt-10">
-                <Image src="/co1.png" className="img-fluid" />
+                <Image src="/public/hinhnen.webp" className="img-fluid" />
               </div>
             </Col>
             <Col md={6} className="">
@@ -25,26 +25,17 @@ export default function Nigga() {
                 onSwiper={(swiper) => console.log(swiper)}
               >
                 <SwiperSlide className="text-2xl">
-                  “Vivamus sagittis lacus vel augue laoreet rutrum faucibus
-                  dolor auctor. Vestibulum ligula porta felis euismod semper.
-                  Cras justo odio consectetur nulla dapibus curabitur blandit.”
-                  <h3 className="text-xl mt-4">Anh da đen</h3>
-                  <h4 className="text-lg font-thin">Chuyên gia tư vấn</h4>
+                  “Chuyển đổi số là một sự thay đổi về chất, là phương thức phát
+                  triển mới của đất nước, đưa Việt Nam phát triển nhanh và bền
+                  vững, đồng thời tạo ra một động lực để Việt Nam trở thành quốc
+                  gia phát triển.”
+                  <h3 className="text-xl mt-4">Nguyễn Mạnh Hùng</h3>
+                  <h4 className="text-lg font-thin">
+                    {" "}
+                    Bộ trưởng Bộ Thông tin và Truyền thông
+                  </h4>
                 </SwiperSlide>
-                <SwiperSlide className="text-2xl">
-                  “Vivamus sagittis lacus vel augue laoreet rutrum faucibus
-                  dolor auctor. Vestibulum ligula porta felis euismod semper.
-                  Cras justo odio consectetur nulla dapibus curabitur blandit.”
-                  <h3 className="text-xl mt-4">Anh da đen</h3>
-                  <h4 className="text-lg font-thin">Chuyên gia tư vấn</h4>
-                </SwiperSlide>
-                <SwiperSlide className="text-2xl">
-                  “Vivamus sagittis lacus vel augue laoreet rutrum faucibus
-                  dolor auctor. Vestibulum ligula porta felis euismod semper.
-                  Cras justo odio consectetur nulla dapibus curabitur blandit.”
-                  <h3 className="text-xl mt-4">Anh da đen</h3>
-                  <h4 className="text-lg font-thin">Chuyên gia tư vấn</h4>
-                </SwiperSlide>
+
                 <div className="swiper-pagination"></div>
               </Swiper>
             </Col>

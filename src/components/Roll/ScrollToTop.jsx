@@ -31,6 +31,7 @@ function ScrollToTop() {
     <>
       {isVisible && (
         <Button
+          className="p-2"
           onClick={scrollToTop}
           style={{
             position: "fixed",
@@ -38,8 +39,7 @@ function ScrollToTop() {
             right: "30px",
             backgroundColor: "#007bff",
             color: "#fff",
-            borderRadius: "50%",
-            padding: "10px",
+
             zIndex: 1000,
           }}
         >

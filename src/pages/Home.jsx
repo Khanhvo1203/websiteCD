@@ -16,24 +16,24 @@ export default function Home() {
   return (
     <div>
       <Container fluid className="p-0">
-        <Container fluid className="items-center bg-[#F6F7F9]">
-          <div className="text-center">
-            <h1 className="text-3xxl">
-              Xin chào! Chào mừng bạn đến với trung tâm công nghệ số quốc gia
-            </h1>
-            <h6 className="m-0">Hello</h6>
-          </div>
-        </Container>
-        <div className="cut-background2">
-          <Image src="/bg12.jpg" />
+        <div className="cut-bac">
+          <Image
+            src="/public/Trangtrungtam.png"
+            width={1865} /* Chiều rộng cụ thể */
+            height={1080} /* Chiều cao cụ thể */
+            objectFit="cover" /* Giữ tỷ lệ của ảnh */
+            alt="Ảnh Trung Tâm Chuyển Đổi Số"
+          />
         </div>
+
+        <h1 className=" font-bold text-3xxl text-center hidden lg:block">
+          Trung Tâm Chuyển Đổi Số
+        </h1>
         <WhoAre />
-        <TinTuc />
         <HowItwork />
         <Nigga />
         <Yourtime />
       </Container>
-      <Completed />
 
       <Convinced />
       <ScrollToTop />

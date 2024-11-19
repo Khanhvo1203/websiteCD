@@ -26,9 +26,12 @@ export default function DropdownComp({ items, title }) {
       </Dropdown.Toggle>
 
       <Dropdown.Menu className="dropdown-menu-right custom-dropdown">
-        {items.map((item, index) => (
-          <Dropdown.Item key={index}>{item}</Dropdown.Item>
-        ))}
+        {items
+          ? items.map((item, index) => (
+              <Dropdown.Item key={index}>{item}</Dropdown.Item>
+            ))
+          : "" // Optional: message when no items
+        }
       </Dropdown.Menu>
     </Dropdown>
   );

@@ -6,9 +6,9 @@ export default function Endhome() {
     <div>
       <Container fluid className="bg-blue-100 py-32 cut-background3">
         <Container>
-          <Row className="px-7 justify-center gap-8 cuttom ">
+          <Row className="px-7 justify-center gap-8 cuttom flex-col lg:flex-row ">
             <Col>
-              <div className="d-flex items-start ">
+              <div className="d-flex items-start flex-col lg:flex-row gap-3">
                 <img
                   src="/LogoTT.jpg"
                   alt="Logo"
@@ -20,7 +20,7 @@ export default function Endhome() {
                   className="object-contain"
                 />
                 <div>
-                  <h3 className="text-black text-[0.9rem]">
+                  <h3 className="text-black text-[1.5rem]">
                     CỔNG THÔNG TIN ĐIỆN TỬ TRUNG TÂM CHUYỂN ĐỔI SỐ QUỐC GIA
                   </h3>
                   <h4 className="text-black text-sm">
@@ -32,7 +32,7 @@ export default function Endhome() {
             </Col>
             <Col>
               <div>
-                <h3 className="text-black text-[1.5rem]">©LIÊN HỆ</h3>
+                <h3 className="text-black text-[1.5rem]">LIÊN HỆ</h3>
                 <h4 className="text-black text-sm">
                   Địa chỉ: Tòa nhà VNTA, 68 Dương Đình Nghệ, Cầu Giấy, thành phố
                   Hà Nội
@@ -48,14 +48,10 @@ export default function Endhome() {
             <Col>
               <div>
                 <h3 className="text-black">Tìm kiếm</h3>
-                <h4 className="text-black text-sm">© Hoạt động </h4>
-                <h4 className="text-black text-sm">© Hỗ trợ</h4>
-              </div>
-            </Col>
-            <Col>
-              <div>
-                <h3 className="text-black">© 2024 Sandbox.</h3>
-                <h4 className="text-black">© 2024 Sandbox.</h4>
+                <h4 className="text-black text-sm">Hoạt động </h4>
+                <h4 className="text-black text-sm">Hỗ trợ</h4>
+                <h4 className="text-black text-sm">Hỏi đáp</h4>
+                <h4 className="text-black text-sm">Chức Năng</h4>
               </div>
             </Col>
           </Row>

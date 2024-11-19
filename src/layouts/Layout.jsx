@@ -1,10 +1,11 @@
 import React from "react";
 import Header from "./Header";
 import ScrollToTop from "../components/Roll/ScrollToTop";
-export default function Layout({ children }) {
+import HeaderLienhe from "./HeaderLienhe";
+export default function Layout({ children, isLienhe }) {
   return (
     <div>
-      <Header />
+      {isLienhe ? <HeaderLienhe /> : <Header />}
       {children}
       {/* <footer></footer> */}
     </div>

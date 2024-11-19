@@ -42,18 +42,33 @@ export default function CarouselCompo() {
           el: ".swiper-pagination",
           clickable: true,
         }}
-        className="mx-5"
+        className="lg:mx-5 mx-0"
         spaceBetween={50}
-        slidesPerView={4}
+        slidesPerView={1}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
+        breakpoints={{
+          640: {
+            slidesPerView: 2, // Show 2 slides when screen width is 640px and above (sm breakpoint)
+          },
+          768: {
+            slidesPerView: 3, // Show 3 slides when screen width is 768px and above (md breakpoint)
+          },
+          1024: {
+            slidesPerView: 4, // Show 4 slides when screen width is 1024px and above (lg breakpoint)
+          },
+        }}
       >
         {carouitem.map((item) => {
           return (
             <SwiperSlide className="">
-              <Card>
+              <Card className="">
                 <CardBody>
-                  <img src={item.img} alt="" className="rounded-full" />
+                  <img
+                    src={item.img}
+                    alt=""
+                    className="rounded-full w-[200px] h-[200px]"
+                  />
                   <p className="font-bold text-2xl my-2">{item.title}</p>
                   <p className="font-light text-xl mb-2">{item.name}</p>
                   <p className="text-xl mb-2">{item.des}</p>
